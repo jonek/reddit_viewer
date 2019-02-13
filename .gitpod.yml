@@ -1,4 +1,4 @@
 tasks:
- - command: "npm i && echo $(gp url):8080 | ./node_modules/.bin/qrcode"
+ - command: "npm i && echo $(gp url):8080 | ./node_modules/.bin/qrcode && ./node_modules/.bin/tabris serve"
 ports:
  - port: 8080
