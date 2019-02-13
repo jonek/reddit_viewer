@@ -1,0 +1,4 @@
+tasks:
+ - command: "npm i && echo $(gp url):8080 | ./node_modules/.bin/qrcode"
+ports:
+ - port: 8080
