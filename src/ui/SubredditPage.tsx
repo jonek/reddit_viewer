@@ -1,4 +1,4 @@
-import { CollectionView, Page, PropertyChangedEvent, Widget } from 'tabris';
+import { CollectionView, Page, PropertyChangedEvent } from 'tabris';
 import { component, event, getById, injectable, Listeners } from 'tabris-decorators';
 import RedditGalleryCell from './RedditGalleryCell';
 import RedditListCell from './RedditListCell';

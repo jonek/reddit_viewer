@@ -1,5 +1,5 @@
 import { CollectionView, Composite } from 'tabris';
-import { ChangeListeners, component, event, getById, injectable, Listener, Listeners, property, ComponentJSX } from 'tabris-decorators';
+import { ChangeListeners, component, event, getById, injectable, Listeners, property, ComponentJSX } from 'tabris-decorators';
 import * as common from '../common';
 import { FILL_LAYOUT } from '../common';
 
